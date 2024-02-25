@@ -12,7 +12,7 @@ var randonImageGenaratorTwo = "./images/dice" + randomNumberTwo + ".png";
 
 var setAttributesTwo = document.querySelectorAll("img")[1].setAttribute("src" , randonImageGenaratorTwo);
 
-
+// this is the conditional check to determine the winners..!
 if(randomNumberOne > randomNumberTwo){
     document.querySelector('h1').innerHTML = "PLAYER ONE WINS"
 } 
