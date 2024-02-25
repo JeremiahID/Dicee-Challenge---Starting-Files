@@ -21,3 +21,10 @@ else if (randomNumberTwo > randomNumberOne){
 } else {
     document.querySelector('h1').innerHTML = "DRAW..!"
 }
+
+
+const reload = document.querySelector('#Refresh');
+
+reload.addEventListener('click', ()=>{
+        location.reload();
+})
