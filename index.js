@@ -17,7 +17,7 @@ if(randomNumberOne > randomNumberTwo){
     document.querySelector('h1').innerHTML = "PLAYER ONE WINS"
 } 
 else if (randomNumberTwo > randomNumberOne){
-    document.querySelector('h1').innerHTML = "PLAYER ONE WINS"
+    document.querySelector('h1').innerHTML = "PLAYER TWO WINS"
 } else {
-    
+    document.querySelector('h1').innerHTML = "DRAW..!"
 }
