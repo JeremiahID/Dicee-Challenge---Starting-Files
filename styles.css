@@ -11,15 +11,15 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: rgb(3, 3, 26);
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 1px 0 #232931;
   font-size: 4rem;
-  color: #4ECCA3;
+  color: rgba(218, 165, 32, 0.678);
 }
 
 p {
@@ -27,6 +27,7 @@ p {
   color: #fafafa;
   font-family: 'Indie Flower', cursive;
 }
+
 
 img {
   width: 80%;
